@@ -23,7 +23,18 @@ function bookDisplay() {
   }
 }
 
+function addBook() {
+  const eachBook = {};
+  eachBook.id = bookArr.length;
+  eachBook.title = title.value;
+  eachBook.author = author.value;
 
+  bookArr.push(eachBook);
+  bookDisplay();
+
+  const jsonData = JSON.stringify(bookArr);
+  localStorage.setItem('form', jsonData);
+}
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
