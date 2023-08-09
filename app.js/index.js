@@ -8,20 +8,7 @@ const author = document.querySelector('#input-author');
 
 let bookArr = [];
 
-function bookDisplay() {
-  bookInfo.innerHTML = '';
-  for (let i = 0; i < bookArr.length; i += 1) {
-    const oneBook = document.createElement('div');
-    oneBook.className = 'book';
-    oneBook.innerHTML = `
-      <p class="title">"${bookArr[i].title}" by ${bookArr[i].author}</p>
-      <button class="remove" onclick="removeBook(${i})">Remove</button>
-    `;
-    bookInfo.appendChild(oneBook);
-    title.value = '';
-    author.value = '';
-  }
-}
+
 
 function addBook() {
   const eachBook = {};
