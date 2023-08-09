@@ -1,0 +1,64 @@
+.library-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10%;
+  margin-left: 12%;
+  width: 75%;
+  height: 100%;
+}
+
+.display-books-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+}
+
+.display-book {
+  width: 100%;
+}
+
+.books button {
+  width: fit-content;
+}
+
+.underline {
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-container input {
+  max-width: 180px;
+  margin: 5px 0 5px 0;
+}
+
+.input-container button {
+  width: fit-content;
+}
+
+h2,
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
