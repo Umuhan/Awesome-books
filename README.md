@@ -1,15 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  
-  <img src="./Hanny.jpg" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Awesome books</b></h3>
-
-</div>
-
-<!-- Table of contents -->
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -17,60 +8,49 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🤯 Project walkthrough](#walk-through)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
+
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome books<a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-> This is my project I created it using HTML and CSS and JavaScript. In this project, I built a basic website that allows users to add/remove books from a list.
+
+**Awesome Books** is a website to make a list of books and has the functionality to add and remove books from the list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-1. HTML.
-2. CSS.
-3. javaScript.
-4. Linters.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://html.org/">HTML</a></li>
-    <li><a href="https://css.org/">CSS</a></li>
-    <li><a href="https://javaScript.org/">CSS</a></li>
-    
-  </ul>
-</details>
-
-<!-- Features -->
+### Tech Stack <a name="tech-stack"></a>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+</ul>
 
 ### Key Features <a name="key-features"></a>
 
-- Added index.html file.
-- Added styles.css file.
-- Added a javaScript file.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Navigation Bar**
+- **Saves data in local-storage**
+- **Makes a list of books**
+- **Adds and removes a book**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link] https://umuhan.github.io/Awesome-books/
+- [Live Demo Link]**https://umuhan.github.io/Awesome-books/**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,81 +58,65 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
+
+- Clone this repo as described in the setup section. 
+- Make modifications as peferred 
+
 
 ### Prerequisites
 
-- Web browser.
-- Code editor.
-- Git-smc.
+In order to run this project you need:
+- A desktop, laptop or mac with internet connection
+- A text editor (i.e. Visual Studio)
+- GitHub account 
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Run this command:
+Example commands:
 
 ```sh
   cd my-folder
-  https://github.com/Umuhan/Awesome-books.git
+
+  git clone https://github.com/BHObserver/awesome-books.git
+  
+  cd Portfolio
 ```
-
-### Install
-
-Install this project with:
-
-Run this command:
-
-```sh
-  cd my-project
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-Open index.html using live server extension.
-
-### Run tests
-
-> Coming Soon
-
-### Deployment
-
-> https://umuhan.github.io/Awesome-books/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤 Umuhan Mohamud
+👤 **Umuhan Mohamud**
 
-1- GitHub: [@githubhandle](https://github.com/Umuhan)
-2- Twitter: [@twitterhandle](https://twitter.com/HannyUmuhan)
-3- LinkedIn: [LinkedIn](https://www.linkedin.com/in/umuhan-mohamud/)
+- GitHub: [@Umuhan](https://github.com/Umuhan)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Burhan Uddin**
+
+- GitHub: [@bhobserver](https://github.com/bhobserver)
+
+
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add Header.
-- [ ] Add footer.
-- [ ] Add more styles.
+- **Desktop Version**
+- **More Methods**
+- **Well-Designed Graphical User Interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/Umuhan/Awesome-books/issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,20 +124,26 @@ Feel free to check the [issues page]https://github.com/Umuhan/Awesome-books/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give it a thumbs up 👍.
+  Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
+I would like to say that, I am really greatful to the Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

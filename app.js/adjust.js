@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 const colorItem = document.querySelector('body');
-// colorItem.style.backgroundColor = "red";
 const form = document.querySelector('form');
 const bookInfo = document.querySelector('.all-books');
 const title = document.querySelector('#input-title');
