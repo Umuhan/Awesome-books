@@ -1,24 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Awesome books: plain JavaScript with objects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Awesome Books</title>
   </head>
   <body>
-    <div class="library-container">
-      <div class="headline">
-        <h1>Awesome Books</h1>
+    <nav>
+      <div class="books">Awesome Books</div>
+      <ul class="list">
+        <li class="list-btn">
+          <a class="list-anchor list-active" href="#">List</a>
+        </li>
+        <li class="add-btn"><a class="add-anchor" href="#">Add new</a></li>
+        <li class="contact-btn">
+          <a class="contact-anchor" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="date"></div>
+    <main>
+      <div class="main-container">
+        <section class="books-list active">
+          <h1 class="heading">All awesome books</h1>
+          <div class="all-books"></div>
+        </section>
+        <section class="add-book-form hidden">
+          <form class="form">
+            <h2 class="form-heading">Add a new book</h2>
+            <input
+              type="text"
+              id="input-title"
+              name="title"
+              placeholder="Title"
+              required
+            />
+            <input
+              type="text"
+              id="input-author"
+              name="author"
+              placeholder="Author"
+              required
+            />
+            <button class="add">Add</button>
+          </form>
+        </section>
+        <section class="contact-info hidden">
+          <h3 class="contact-heading">Contact Information</h3>
+          <div class="contact-details">
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <p>You can reach out to us!</p>
+            <ul>
+              <li>Email us: asd@gmail.com</li>
+              <li>Our phone number: 12345678910</li>
+              <li>Our address: Street123 Nairobi, Kenya</li>
+            </ul>
+          </div>
+        </section>
       </div>
-      <div class="display-books-container"></div>
-      <div class="input-container">
-        <input type="text" id="title" placeholder="Title" />
-        <input type="text" id="author" placeholder="Author" />
-        <button class="add">Add</button>
-      </div>
-    </div>
-    <script src="main.js"></script>
+    </main>
+    <footer>
+      <p>copy right</p>
+    </footer>
+    <!-- <script src="app.js/adjust.js"></script> -->
+    <script src="./app.js/adjust.js"></script>
+    <script src="./app.js/index.js"></script>
   </body>
 </html>
