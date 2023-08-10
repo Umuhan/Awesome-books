@@ -126,8 +126,14 @@ h4 {
 h5 {
   margin: 8px 0 0 0;
   padding-bottom: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
   text-transform: capitalize;
   letter-spacing: 0.6px;
 }
