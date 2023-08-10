@@ -2,13 +2,13 @@ class LibraryApp {
   constructor() {
     this.books = [];
     this.displayBooksContainer = document.querySelector(
-      ".display-books-container"
+      '.display-books-container',
     );
-    this.titleInput = document.querySelector("#title");
-    this.authorInput = document.querySelector("#author");
-    this.addBtn = document.querySelector(".add");
+    this.titleInput = document.querySelector('#title');
+    this.authorInput = document.querySelector('#author');
+    this.addBtn = document.querySelector('.add');
 
-    this.addBtn.addEventListener("click", () => this.addBook());
+    this.addBtn.addEventListener('click', () => this.addBook());
     this.loadBooks();
     this.displayBooks();
   }
@@ -30,8 +30,8 @@ class LibraryApp {
   }
 
   displayBook(book) {
-    const displayBook = document.createElement("div");
-    displayBook.classList.add("display-book");
+    const displayBook = document.createElement('div');
+    displayBook.classList.add('display-book');
 
     displayBook.innerHTML = `
       <div class='display-book-details'>
@@ -41,14 +41,14 @@ class LibraryApp {
       <button class="remove">Remove</button>
     `;
 
-    const removeBtn = displayBook.querySelector(".remove");
-    removeBtn.addEventListener("click", () => this.removeBook(book));
+    const removeBtn = displayBook.querySelector('.remove');
+    removeBtn.addEventListener('click', () => this.removeBook(book));
     this.displayBooksContainer.appendChild(displayBook);
   }
 
   removeBook(book) {
     this.books = this.books.filter(
-      (b) => b.title !== book.title || b.author !== book.author
+      (b) => b.title !== book.title || b.author !== book.author,
     );
     this.saveBooks();
     this.clearDisplay();
@@ -56,21 +56,21 @@ class LibraryApp {
   }
 
   saveBooks() {
-    localStorage.setItem("library", JSON.stringify(this.books));
+    localStorage.setItem('library', JSON.stringify(this.books));
   }
 
   loadBooks() {
-    const storedBooks = JSON.parse(localStorage.getItem("library")) || [];
+    const storedBooks = JSON.parse(localStorage.getItem('library')) || [];
     this.books = storedBooks;
   }
 
   clearInputs() {
-    this.titleInput.value = "";
-    this.authorInput.value = "";
+    this.titleInput.value = '';
+    this.authorInput.value = '';
   }
 
   clearDisplay() {
-    this.displayBooksContainer.innerHTML = "";
+    this.displayBooksContainer.innerHTML = '';
   }
 }
 
