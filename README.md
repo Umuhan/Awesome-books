@@ -50,7 +50,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]**https://umuhan.github.io/Awesome-books/**
+- **Live Demo Link** >>> **https://umuhan.github.io/Awesome-books/**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +81,7 @@ Example commands:
 ```sh
   cd my-folder
 
-  git clone https://github.com/BHObserver/awesome-books.git
+  git clone https://github.com/umuhan/awesome-books.git
   
   cd Portfolio
 ```
