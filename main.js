@@ -14,10 +14,11 @@ class LibraryApp {
   }
 
   addBook() {
+    const uniqueId = Math.floor(Math.random() * Date.now()).toString(16);
     const title = this.titleInput.value;
     const author = this.authorInput.value;
-    if (title && author) {
-      const book = { title, author };
+    if (uniqueId && title && author) {
+      const book = { uniqueId, title, author };
       this.books.push(book);
       this.saveBooks();
       this.displayBook(book);
@@ -48,7 +49,7 @@ class LibraryApp {
 
   removeBook(book) {
     this.books = this.books.filter(
-      (b) => b.title !== book.title || b.author !== book.author,
+      (b) => b.uniqueId !== book.uniqueId || b.title !== book.title || b.author !== book.author,
     );
     this.saveBooks();
     this.clearDisplay();
